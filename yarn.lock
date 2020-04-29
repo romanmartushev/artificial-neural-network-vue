@@ -3980,6 +3980,13 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
+jsnumpy@^1.1.10:
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/jsnumpy/-/jsnumpy-1.1.10.tgz#2de04d6966d8f0aa431ae99fc3fdf20b371498eb"
+  integrity sha512-wORQl65QpcMNc7tutjuCwQXEIgq4loVzKYep5bM9S4hs+lu1eZukwN3Fj2i36oKENWnZe0WkuX+kgUhc/5gjMA==
+  dependencies:
+    matrix_deep_clone "^1.0.2"
+
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -4254,6 +4261,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+matrix_deep_clone@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/matrix_deep_clone/-/matrix_deep_clone-1.0.2.tgz#d92d1a4c9a22812be7fad76affdf6dbbb4231fc4"
+  integrity sha1-2S0aTJoigSvn+tdq/99tu7QjH8Q=
 
 md5.js@^1.3.4:
   version "1.3.5"

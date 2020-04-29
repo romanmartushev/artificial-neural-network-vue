@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+const tailwindcss = require('tailwindcss');
 
 /*
  |--------------------------------------------------------------------------
@@ -13,9 +14,9 @@ const mix = require('laravel-mix');
 
 mix.setPublicPath('./public_html');
 
-mix.options({
-  processCssUrls: false
-});
-
 mix.js('resources/js/app.js', '/js')
-    .sass('resources/sass/app.scss', './public_html/css');
+  .sass('resources/sass/app.scss', './public_html/css')
+  .options({
+    processCssUrls: false,
+    postCss: [ tailwindcss('./tailwind.config.js') ],
+  });
