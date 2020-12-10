@@ -1,4 +1,4 @@
-class InputNode {
+export default class InputNode {
   constructor() {
     this.input = 0.0;
   }

@@ -1,6 +1,6 @@
 var np = require('jsnumpy');
 
-class HiddenNode {
+export default class HiddenNode {
   constructor() {
     this.output = 0.0;
     this.input = 0.0;
